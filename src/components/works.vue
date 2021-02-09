@@ -27,7 +27,7 @@
 export default {};
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 .works__title {
   width: 100%;
   text-align: center;
