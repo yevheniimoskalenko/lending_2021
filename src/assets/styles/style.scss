@@ -1,0 +1,33 @@
+@import "reset.css";
+* {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+.wrapper {
+  margin: 100px 0 110px 0;
+}
+.btn {
+  padding: 25px 30px;
+  border-radius: 10px;
+}
+.download {
+  background: #fab8c3;
+}
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 67px;
+}
+.primary {
+  background: #5956e9;
+  color: #fff;
+  &:hover {
+    color: rgb(238, 238, 238);
+  }
+}
+.desc {
+  color: #737373;
+  font-weight: 500;
+  line-height: 38px;
+  margin-top: 32px;
+}
