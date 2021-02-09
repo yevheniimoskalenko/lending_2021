@@ -4,7 +4,11 @@
       <div class="platform">
         <div class="experiance__acc">
           <div class="experiance__app">
-            <img :src="require('../assets/image 12.png')" alt="sweava" />
+            <img
+              :src="require('../assets/image 133.png')"
+              class="borderImage"
+              alt="sweava"
+            />
           </div>
           <div class="experiance_content">
             <span class="topTitle">Original platform</span>

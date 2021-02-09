@@ -11,7 +11,11 @@
             </p>
           </div>
           <div class="experiance__app">
-            <img :src="require('../assets/image 12.png')" alt="sweava" />
+            <img
+              :src="require('../assets/image 134.png')"
+              class="borderImage"
+              alt="sweava"
+            />
           </div>
         </div>
       </div>
