@@ -7,7 +7,7 @@
         </div>
         <div class="works__acc">
           <div class="work__app">
-            <img :src="require('../assets/image 12.png')" alt="" />
+            <img :src="require('../assets/image 12.png')" alt="sweava" />
           </div>
           <div class="works_content">
             <span class="topTitle">Create an account</span>
