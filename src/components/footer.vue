@@ -8,6 +8,7 @@
           </h2>
         </div>
         <div class="footer__social">
+          <div class="icon-f"></div>
           <img :src="require('../assets/Saly-6.png')" alt="sweava" />
           <div class="social__list">
             <div class="social__item">
@@ -55,6 +56,7 @@
               </a>
             </div>
           </div>
+          <div class="icon-s"></div>
         </div>
       </div>
       <div class="copyright">
@@ -74,8 +76,26 @@
   position: relative;
   flex-basis: 50%;
 }
+.icon-f {
+  width: 70px;
+  height: 157px;
+  background-image: url("../assets/Saly-233.png");
+  position: absolute;
+  bottom: 52px;
+  left: 72px;
+  transform: rotate(-64deg);
+}
+.icon-s {
+  width: 40px;
+  height: 136px;
+  background-image: url("../assets/Saly-243.png");
+  position: absolute;
+  top: 52px;
+  right: 72px;
+}
 .footer__content {
   flex-basis: 50%;
+  margin-top: 70px;
 }
 .copyright {
   text-align: center;
