@@ -1,6 +1,10 @@
 <template>
   <div>
     <div class="icon-first yellow big"></div>
+    <div class="icon-r primary-c">
+      <img :src="require('../assets/Sally-4.png')" alt="women" />
+      <div class="tree"></div>
+    </div>
     <section class="container">
       <div class="wrapper">
         <div class="header">
@@ -57,6 +61,9 @@ export default {};
   top: -60px;
   left: -40px;
 }
+.donwload_app {
+  z-index: 999;
+}
 .icon-second {
   position: absolute;
   right: -40px;
@@ -71,8 +78,30 @@ export default {};
   position: absolute;
   left: 30px;
   top: 350px;
+  z-index: 1;
 }
-
+.icon-r {
+  position: absolute;
+  width: 1032px;
+  height: 1032px;
+  border-radius: 100%;
+  top: -285px;
+  right: -308px;
+  img {
+    position: absolute;
+    top: 370px;
+    left: -30px;
+  }
+}
+.tree {
+  position: absolute;
+  width: 95px;
+  height: 151px;
+  background: url("../assets/tree.png");
+  z-index: 999;
+  bottom: 230px;
+  left: -147px;
+}
 .header {
   display: flex;
   flex-direction: column;
